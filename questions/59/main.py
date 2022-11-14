@@ -22,9 +22,9 @@ $S_{N-1}$
 
 N = int(input())
 A = [""] * N
-  for i in range(N):
-    A[i] = input()
+for i in range(N):
+  A[i] = input()
 ans = 0
 for item in A:
-   ans += len(item)
+  ans += len(item)
 print(ans)
