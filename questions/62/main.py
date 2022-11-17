@@ -25,9 +25,11 @@ $S_{N-1}$
 """
 
 N = int(input())
-S = [''] * N
-for i in range(N):
-  S[i] = input()
+# S = [''] * N
+# for i in range(N):
+#   S[i] = input()
+
+S = list(map(str, input().split()))
 left_count = 0
 right_count = 0
 for item in S:
