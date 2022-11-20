@@ -60,7 +60,7 @@ def get_question(question_number: int) -> None:
     # generate main.py
     with open(f"{os.path.dirname(__file__)}/../../{dir_name}/main.py", "w") as f:
         f.write(
-            f'"""\n{BASE_URL}/{str(question_number)}\n\n{problem_text}"""\n\nprint("Hello Algor-Method!")\n')
+            f'"""\n{BASE_URL}/{str(question_number)}\n\n{problem_text}"""\n\n\n')
 
 
 if __name__ == "__main__":
